@@ -15,7 +15,7 @@ This project translates text and `.docx` documents from English to a specified t
 ### Install Dependencies
 ```bash
 pip install requests python-docx
-
+```
 ## Usage
 
 ### Translate Text
@@ -24,11 +24,11 @@ Use the `translator_text` function to translate a text string from English to th
 ```python
 translated_text = translator_text("Hello world!", "pt-br")
 print(translated_text)
-
+```
 ### Translate Document
 Use the translator_document function to translate a .docx file and save it with the translated content:
 
 ```python
 translated_path = translator_document("your_document.docx")
 print(f"Translated document saved at: {translated_path}")
-
+```
